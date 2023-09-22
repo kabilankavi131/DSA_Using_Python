@@ -1,0 +1,5 @@
+data=input("Enter Initial value : ").split()
+data.append(input("Enter Additional value to be updated : "))
+data.extend(input("Enter Multuple values to be updated : ").split())
+data.insert(int(input("Enter the position to be inserted : ")),input("Enter the value to be insert in that position : "))
+print(data)
